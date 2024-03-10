@@ -1,0 +1,23 @@
+header {
+    
+}
+
+
+.navbar ul {
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    list-style-position: inside;
+    align-content: center;
+}
+.navbar li {
+    display: inline;
+    padding: 1rem;
+}
+.navbar-link {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}

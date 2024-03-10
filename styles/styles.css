@@ -1,0 +1,51 @@
+
+
+main {
+    margin-bottom: 7rem;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+
+
+
+.card-grid{
+    display:grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+    justify-content: center;
+}
+
+
+.card-div {
+    justify-content: center;
+}
+.card {
+    margin: 5px;
+}
+
+.card h3 {
+    color: white;
+    font-weight: bold;
+}
+.card p {
+    color: white;
+}
+.card a {
+    color: white;
+    font-weight: bold;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}

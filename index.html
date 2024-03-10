@@ -2,44 +2,77 @@
 <html>
 <head>
     <title>Evan Overly's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/header.css">
 </head>
 
 
-<body style="font-family: sans-serif;">
-    <h1>Evan Overly</h1>
-    <h2>Software Design & Development Professional</h2>
-    <div class="navbar">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/evan-overly/">Linkedin</a></li>
-            <li><a href="https://uwf.joinhandshake.com/stu/users/23261568">Handshake</a></li>
-            <li><a href="https://github.com/EhoNo1">GitHub</a></li>
-        </ul>
-    </div>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <h1>Evan Overly</h1>
+        <h2>Software Design & Development Professional</h2>
+        <div class="navbar">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/evan-overly/" class="navbar-link btn">Linkedin</a></li>
+                <li><a href="https://uwf.joinhandshake.com/stu/users/23261568" class="navbar-link btn">Handshake</a></li>
+                <li><a href="https://github.com/EhoNo1" class="navbar-link btn">GitHub</a></li>
+            </ul>
+        </div>
+    </header>
 
-    <hr>
-    <h2>Previous Works</h2>
+    <main>
+        <div class="container">
+            <h2 class="text-center">Previous Works</h2>
+            <div class="row card-div">
+                <div class="card" style="background-color: purple; width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Capstone</h3>
+                        <p></p>
+                        <a href="" class="btn btn-primary"></a>
+                    </div>
+                </div>
+                <div class="card" style="background-color: purple; width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Roleplaying Game Framework</h3>
+                        <p></p>
+                        <a href="" class="btn btn-primary"></a>
+                    </div>
+                </div>
+                <div class="card" style="background-color: purple; width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Math Kitty Website</h3>
+                        <p>A simple <b>Express JS</b> webservice that generates random math problems and displays it using <b>Handlebars</b>.</p>
+                        <p>Hosted on a <b>Digital Ocean Droplet</b>.</p>
+                        <a href="http://mathkitty.org" class="btn btn-primary">Play it now!</a>
+                    </div>
+                </div>
+                <div class="card" style="background-color: darkgreen; width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Portfolio Website</h3>
+                        <p class="card-text">A from-scratch website written by yours truly to hold quick links to all my finished works!</p>
+                        <p class="card-text">You're looking at it <b>right now</b>!</p>
+                    </div>
+                </div>
+                <div class="card" style="background-color: darkgreen; width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Abstract Backyard Glow</h3>
+                        <p class="card-text">One the first VR Social worlds I'm really proud of. I experimented with cross-platform design strategies and leveraged <b>GIT</b> in order to develop the same world for both <b>VRChat</b> and <b>ChilloutVR</b> simultaneously.</p>
+                        <a href="https://vrchat.com/home/launch?worldId=wrld_6f5e49b9-6134-4c87-b873-2a09ebd1fec2" class="btn btn-primary">Visit it in VRChat.</a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </main>
 
-    <div class="card-grid">
-        <div class="card" style="background-color: purple;">
-            <h3>Math Kitty Website</h3>
-            <p>A simple <b>Express JS</b> webservice that generates random math problems and displays it using <b>Handlebars</b>.</p>
-            <p>Hosted on a <b>Digital Ocean Droplet</b>.</p>
-            <p>Try it! <a href="http://mathkitty.org">MathKitty.org</a></p>
-        </div>
-        <div class="card" style="background-color: darkgreen;">
-            <h3>Portfolio Website</h3>
-            <p>A from-scratch website written by yours truly to hold quick links to all my finished works!</p>
-            <p>You're looking at it <b>right now</b>!</p>
-        </div>
-        <div class="card" style="background-color: darkgreen;">
-            <h3>Abstract Backyard Glow</h3>
-            <p>One the first VR Social worlds I'm really proud of. I experimented with cross-platform design strategies and leveraged <b>GIT</b> in order to develop the same world for both <b>VRChat</b> and <b>ChilloutVR</b> simultaneously.</p>
-            <p>Visit it in both <a href="https://vrchat.com/home/launch?worldId=wrld_6f5e49b9-6134-4c87-b873-2a09ebd1fec2">VRChat</a> and <b>ChilloutVR</b>.</p>
-        </div>
-        
-        
-    </div>
+    <footer class="footer">
+        <p>Contact: <a href="mailto:evanHOverly@gmail.com">EvanHOverly@gmail.com</a></p>
+        <p></p>&copy; Evan Overly.</p>
+    </footer>
 
 </body>
 </html>
