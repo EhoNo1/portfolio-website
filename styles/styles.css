@@ -12,7 +12,11 @@ h2 {
 }
 
 
-
+body {
+    background-image: url("../public/img/WoodFloor040_2K-JPG_Color.jpg");
+    background-repeat: repeat;
+    background-size: 50rem;
+}
 
 .card-grid{
     display:grid;
@@ -28,6 +32,7 @@ h2 {
 }
 .card {
     margin: 5px;
+    width: 20rem;
 }
 
 .card h3 {
