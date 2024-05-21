@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Math Kitty Website",
+        "description": "A simple ExpressJS webservice that generates random math problems and displays using handlebars.",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "http://mathkitty.org",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "My personal portfolio site, made using ReactJS and Bootstrap. You're looking at it right now!",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Abstract Backyard Glow",
+        "description": "One of the my first popular VR worlds that I'm really proud of. Initially built for me to experiment with cross platform design and leveraged git to separate the project accross multiple platforms.",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "https://vrchat.com/home/launch?worldId=wrld_6f5e49b9-6134-4c87-b873-2a09ebd1fec2",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Aetous' VRC Blog",
+        "description": "A personal blog site for me to talk in depth about my VRC projects and write guides and tutorials for people.",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "https://ehono1.github.io/Aetous-VRC-Blog/",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Realtime Parameter Tracker",
+        "description": "A standalone companion app for VRChat that provides long-form, cross session, realtime parameter animations over OSC.",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "https://ehono1.github.io/Aetous-VRC-Blog/Apps/Realtime%20Parameter%20Tracker/",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Nature-Dex",
+        "description": "",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Role Playing Game Framework",
+        "description": "",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Feast Folio",
+        "description": "",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Linnen Tracking Project",
+        "description": "",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "",
+        "linkText": "Visit"
+    },
+    {
+        "title": "Eagle Scout Project",
+        "description": "",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "",
+        "link": "",
+        "linkText": "Visit"
+    }
+]

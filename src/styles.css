@@ -23,33 +23,17 @@ h2 {
     font-weight: bold;
 }
 
-
-.card-grid{
-    display:grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+.row {
     justify-content: center;
 }
 
 .card {
-    width: 15rem;
-    height: 15rem;
-    display: flexbox;
-    background-color: darkgreen;
-    background-size: auto;
+    width: 25rem;
+    background-size: contain;
     word-wrap: break-word;
-    padding:1em;
+    margin:0.5rem;
 }
 
-h3 {
-    color: white;
-    font-weight: bold;
-}
-.card p {
-    color: white;
-}
 .card a {
-    color: white;
     font-weight: bold;
 }
