@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Math Kitty Website",
+        "description": "A simple ExpressJS webservice that generates random math problems and displays using handlebars.",
+        "link": "http://mathkitty.org"
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "My personal portfolio site, made using ReactJS and Bootstrap. You're looking at it right now!"
+    },
+    {
+        "title": "Abstract Backyard Glow",
+        "description": "One of the my first popular VR worlds that I'm really proud of. Initially built for me to experiment with cross platform design and leveraged git to separate the project accross multiple platforms.",
+        "link": "https://vrchat.com/home/launch?worldId=wrld_6f5e49b9-6134-4c87-b873-2a09ebd1fec2"
+    },
+    {
+        "title": "Aetous' VRC Blog",
+        "description": "A personal blog site for me to talk in depth about my VRC projects and write guides and tutorials for people.",
+        "link": "https://ehono1.github.io/Aetous-VRC-Blog/"
+    },
+    {
+        "title": "Realtime Parameter Tracker",
+        "description": "A standalone companion app for VRChat that provides long-form, cross session, realtime parameter animations over OSC.",
+        "link": "https://ehono1.github.io/Aetous-VRC-Blog/Apps/Realtime%20Parameter%20Tracker/"
+    },
+    {
+        "title": "Nature-Dex",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Role Playing Game Framework",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Feast Folio",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Linnen Tracking Project",
+        "description": "",
+        "link": ""
+    },
+    {
+        "title": "Eagle Scout Project",
+        "description": "",
+        "link": ""
+    }
+]
