@@ -2,91 +2,111 @@
     {
         "title": "Math Kitty Website",
         "description": "A simple ExpressJS webservice that generates random math problems and displays using handlebars.",
-        "img":"https://place-hold.it/500x300",
+        "img":"./img/examples/MathGameExample.png",
         "imgAlt":"",
-        "color": "",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#7A3B8A",
         "link": "http://mathkitty.org",
-        "linkText": "Visit"
+        "linkText": "Play Now!",
+        "priority": 0
     },
     {
         "title": "Portfolio Website",
-        "description": "My personal portfolio site, made using ReactJS and Bootstrap. You're looking at it right now!",
-        "img":"https://place-hold.it/500x300",
+        "description": "My personal portfolio site, made using ReactJS and Bootstrap.\n\nYou're looking at it right now!",
+        "img":"",
         "imgAlt":"",
-        "color": "",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#000000",
         "link": "",
-        "linkText": "Visit"
+        "linkText": "(You're already here!)",
+        "priority": 1
     },
     {
         "title": "Abstract Backyard Glow",
-        "description": "One of the my first popular VR worlds that I'm really proud of. Initially built for me to experiment with cross platform design and leveraged git to separate the project accross multiple platforms.",
-        "img":"https://place-hold.it/500x300",
-        "imgAlt":"",
-        "color": "",
+        "description": "One of the my first popular VR worlds that I'm really proud of. Initially built for me to experiment with cross platform design and leveraged git to separate the project accross multiple platforms. I tried to make the world with a surreal, dream-like",
+        "img":"./img/examples/ABGExample.png",
+        "imgAlt":"Photograph from the world taken at the desk area.",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#815819",
         "link": "https://vrchat.com/home/launch?worldId=wrld_6f5e49b9-6134-4c87-b873-2a09ebd1fec2",
-        "linkText": "Visit"
+        "linkText": "Visit in VRChat",
+        "priority": 1
     },
     {
         "title": "Aetous' VRC Blog",
         "description": "A personal blog site for me to talk in depth about my VRC projects and write guides and tutorials for people.",
-        "img":"https://place-hold.it/500x300",
-        "imgAlt":"",
-        "color": "",
+        "img":"./img/examples/VRCBlogExample.png",
+        "imgAlt":"Screenshot of the texture optimization tutorial on the blog website.",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#5E1E99",
         "link": "https://ehono1.github.io/Aetous-VRC-Blog/",
-        "linkText": "Visit"
+        "linkText": "Explore My Blog!",
+        "priority": 1
     },
     {
         "title": "Realtime Parameter Tracker",
         "description": "A standalone companion app for VRChat that provides long-form, cross session, realtime parameter animations over OSC.",
-        "img":"https://place-hold.it/500x300",
+        "img":"",
         "imgAlt":"",
-        "color": "",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#5C5C5C",
         "link": "https://ehono1.github.io/Aetous-VRC-Blog/Apps/Realtime%20Parameter%20Tracker/",
-        "linkText": "Visit"
+        "linkText": "Read about it!",
+        "priority": 1
     },
     {
         "title": "Nature-Dex",
-        "description": "",
-        "img":"https://place-hold.it/500x300",
-        "imgAlt":"",
-        "color": "",
+        "description": "Natural-Dex is a social media platform where users are encouraged to share photos of local plants and animals and colate those photos with scientific information.\nBuilt from-scratch during my capstone project with a team of 4 using ASP.NET and ReactJS",
+        "img":"./img/examples/NaturedexExample.png",
+        "imgAlt":"Screenshot of the NatureDex website",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#206600",
         "link": "",
-        "linkText": "Visit"
+        "linkText": "See the repo!",
+        "priority": 2
     },
     {
         "title": "Role Playing Game Framework",
-        "description": "",
+        "description": "My team and I have put together the foundations of a RolePlaying game in Unity Engine.\nWe've made an attempt to make it as easy to pick up as possible, and there's even a companion documentation site.",
         "img":"https://place-hold.it/500x300",
         "imgAlt":"",
-        "color": "",
-        "link": "",
-        "linkText": "Visit"
+        "bg":"./paper/Paper001.jpg",
+        "color": "#383838",
+        "link": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
+        "linkText": "Check out the project!",
+        "priority": 1
     },
     {
         "title": "Feast Folio",
-        "description": "",
-        "img":"https://place-hold.it/500x300",
-        "imgAlt":"",
-        "color": "",
-        "link": "",
-        "linkText": "Visit"
+        "description": "Feast Folio is a new type of restaurant search and journaling site. Built during our team's ClientSide class, we've made a service that allows users to search for locally owned reastaurantes and create private journals and ratings about each one to track their experiences.",
+        "img":"./img/examples/FeastFolioExample.png",
+        "imgAlt":"Screenshot of the FeastFolio website.",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#292929",
+        "link": "https://github.com/EhoNo1/FeastFolio",
+        "linkText": "Check out the project!",
+        "priority": 2
     },
     {
         "title": "Linnen Tracking Project",
-        "description": "",
-        "img":"https://place-hold.it/500x300",
+        "description": "A java-based linnen order tracking system prototyped for a nearby linnen washing plant.",
+        "img":"",
         "imgAlt":"",
-        "color": "",
+        "bg":"./paper/Paper001.jpg",
+        "color": "#585858",
         "link": "",
-        "linkText": "Visit"
+        "linkText": "",
+        "priority": 0
     },
     {
         "title": "Eagle Scout Project",
-        "description": "",
-        "img":"https://place-hold.it/500x300",
-        "imgAlt":"",
-        "color": "",
-        "link": "",
-        "linkText": "Visit"
+        "description": "As an Eagle Scout, I was tasked with organizing and executing a community service project. I chose to built raised planter boxes for the school of a local church so that they have the opportunity to include horticultural activities in their curriculum.\nThe project was funded by donations from the congregation and local suppliers, and unused funds were donated to the school to help them fund the garden.",
+        "img":"./img/examples/PlanterBoxExample.png",
+        "imgAlt":"Photograph of the planterboxes still in use years later. Photo Copyright Google Maps.",
+        "bg":"./paper/Paper002.jpg",
+        "color": "#1772C7",
+        "link": "https://www.google.com/maps/@30.3922019,-87.0452968,3a,21y,109.16h,81.04t/data=!3m6!1e1!3m4!1szMp3TtGrWPGPkDdVdYJhrQ!2e0!7i16384!8i8192?coh=205409&entry=ttu",
+        "linkText": "See on Google Maps!",
+        "priority": 3
     }
 ]

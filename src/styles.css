@@ -1,26 +1,9 @@
-
 h1 {
     text-align: center;
 }
+
 h2 {
     text-align: center;
-}
-
-.navbar ul {
-    padding: 0;
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
-    list-style-position: inside;
-}
-.navbar li {
-    display: inline;
-    padding: 1rem;
-}
-.navbar li a {
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .row {
@@ -31,9 +14,24 @@ h2 {
     width: 25rem;
     background-size: contain;
     word-wrap: break-word;
-    margin:0.5rem;
+    margin: 0.5rem;
+    overflow: hidden;
+    height: auto;
+    display: inline-block;
+}
+
+.card-body {
+    display: block;
+}
+
+.card-img {
+    max-height: 20rem;
 }
 
 .card a {
     font-weight: bold;
+}
+
+#previous-works {
+    background-image: url('./textures/Cork002.jpg');
 }
