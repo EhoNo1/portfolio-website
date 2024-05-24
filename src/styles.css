@@ -6,32 +6,24 @@ h2 {
     text-align: center;
 }
 
-.row {
-    justify-content: center;
-}
-
-.card {
-    width: 25rem;
-    background-size: contain;
-    word-wrap: break-word;
-    margin: 0.5rem;
-    overflow: hidden;
-    height: auto;
-    display: inline-block;
-}
-
-.card-body {
-    display: block;
-}
-
-.card-img {
-    max-height: 20rem;
-}
-
-.card a {
-    font-weight: bold;
-}
-
 #previous-works {
     background-image: url('./textures/Cork002.jpg');
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+
+    @include media-breakpoint-only(xl) {
+        column-count: 5;
+    }
+}
+
+.card-columns .card {
+    margin-bottom: 0;
+}
+
+.custom-nav {
+    margin-right: 1em;
 }

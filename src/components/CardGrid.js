@@ -11,12 +11,14 @@ export default function CardGrid(props) {
 
 
 
-    return (
-
-        <div className="card-columns" id="card-grid">
-
-            {cards}
-
+    return ( 
+        <div>
+            <div className="card-columns" style={{
+                display: "inline-block",
+                textAlign: "center"
+                }}>
+                {cards}
+            </div>
         </div>
 
     );
