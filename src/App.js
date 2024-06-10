@@ -24,23 +24,16 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Evan Overly</h1>
-      <h2>Software Design & Development Professional</h2>
-      <div style={{
-        textAlign: "center"
-      }}>
-        <a type="button" className='custom-nav btn btn-primary' href="https://www.linkedin.com/in/evan-overly/">Linkedin</a>
-        <a type="button" className='custom-nav btn btn-primary' href="https://uwf.joinhandshake.com/stu/users/23261568">Handshake</a>
-        <a type="button" className='custom-nav btn btn-primary' href="https://github.com/EhoNo1">GitHub</a>
-      </div>
-
-      <WoodHR />
-      <h2>Have you tried this?</h2>
-      <div className='container' style={{
-        width: "100%",
-        textAlign: "center"
-      }}>
-        <Card data={randomCardData} />
+      <div id="header">
+        <h1>Evan Overly</h1>
+        <h2>Software Design & Development Professional</h2>
+        <div style={{
+          textAlign: "center"
+        }}>
+          <a type="button" className='custom-nav btn btn-primary' href="https://www.linkedin.com/in/evan-overly/">Linkedin</a>
+          <a type="button" className='custom-nav btn btn-primary' href="https://uwf.joinhandshake.com/stu/users/23261568">Handshake</a>
+          <a type="button" className='custom-nav btn btn-primary' href="https://github.com/EhoNo1">GitHub</a>
+        </div>
       </div>
       <WoodHR />
       <div id="previous-works">

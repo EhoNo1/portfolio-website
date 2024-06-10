@@ -9,6 +9,10 @@ h2 {
 #previous-works {
     background-image: url('./textures/Cork002.jpg');
 }
+#header {
+    background-image: url('./textures/Concrete042A.jpg');
+    background-size: 512px;
+}
 
 .card-columns {
     @include media-breakpoint-only(lg) {
