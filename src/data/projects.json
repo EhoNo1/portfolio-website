@@ -1,13 +1,13 @@
 [
     {
-        "title": "Math Kitty Website",
+        "title": "Math Game Website",
         "description": "A simple ExpressJS webservice that generates random math problems and displays using handlebars.",
         "img":"./img/examples/MathGameExample.png",
         "imgAlt":"",
         "bg":"./paper/Paper001.jpg",
         "color": "#7A3B8A",
-        "link": "http://mathkitty.org",
-        "linkText": "Play Now!",
+        "link": "https://github.com/EhoNo1/MathGameWebsite",
+        "linkText": "Check out the code!",
         "priority": 0
     },
     {
