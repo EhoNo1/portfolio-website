@@ -22,39 +22,6 @@
         "priority": 1
     },
     {
-        "title": "Abstract Backyard Glow",
-        "description": "One of the my first popular VR worlds that I'm really proud of. Initially built for me to experiment with cross platform design and leveraged git to separate the project accross multiple platforms. I tried to make the world with a surreal, dream-like",
-        "img":"./img/examples/ABGExample.png",
-        "imgAlt":"Photograph from the world taken at the desk area.",
-        "bg":"./paper/Paper001.jpg",
-        "color": "#815819",
-        "link": "https://vrchat.com/home/launch?worldId=wrld_6f5e49b9-6134-4c87-b873-2a09ebd1fec2",
-        "linkText": "Visit in VRChat",
-        "priority": 1
-    },
-    {
-        "title": "Aetous' VRC Blog",
-        "description": "A personal blog site for me to talk in depth about my VRC projects and write guides and tutorials for people.",
-        "img":"./img/examples/VRCBlogExample.png",
-        "imgAlt":"Screenshot of the texture optimization tutorial on the blog website.",
-        "bg":"./paper/Paper001.jpg",
-        "color": "#5E1E99",
-        "link": "https://ehono1.github.io/Aetous-VRC-Blog/",
-        "linkText": "Explore My Blog!",
-        "priority": 1
-    },
-    {
-        "title": "Realtime Parameter Tracker",
-        "description": "A standalone companion app for VRChat that provides long-form, cross session, realtime parameter animations over OSC.",
-        "img":"",
-        "imgAlt":"",
-        "bg":"./paper/Paper001.jpg",
-        "color": "#5C5C5C",
-        "link": "https://ehono1.github.io/Aetous-VRC-Blog/Apps/Realtime%20Parameter%20Tracker/",
-        "linkText": "Read about it!",
-        "priority": 1
-    },
-    {
         "title": "Nature-Dex",
         "description": "Natural-Dex is a social media platform where users are encouraged to share photos of local plants and animals and colate those photos with scientific information.\nBuilt from-scratch during my capstone project with a team of 4 using ASP.NET and ReactJS",
         "img":"./img/examples/NaturedexExample.png",
