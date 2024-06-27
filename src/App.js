@@ -33,6 +33,8 @@ function App() {
           <a type="button" className='custom-nav btn btn-primary' href="https://www.linkedin.com/in/evan-overly/">Linkedin</a>
           <a type="button" className='custom-nav btn btn-primary' href="https://uwf.joinhandshake.com/stu/users/23261568">Handshake</a>
           <a type="button" className='custom-nav btn btn-primary' href="https://github.com/EhoNo1">GitHub</a>
+          <a type="button" className='custom-nav btn btn-primary' href="https://docs.google.com/document/d/12vGXkVfmT4KhdWo4OSs98-nLORc0-_ZMEb9ERfsISWA/edit?usp=sharing">Resume</a>
+          
         </div>
       </div>
       <WoodHR />
