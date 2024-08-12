@@ -1,33 +1,66 @@
-h1 {
-    text-align: center;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
-    text-align: center;
-}
+div#header {
+    margin: 1rem;
 
-#previous-works {
-    background-image: url('./textures/Cork002.jpg');
-}
-#header {
-    background-image: url('./textures/Concrete042A.jpg');
-    background-size: 512px;
-}
-
-.card-columns {
-    @include media-breakpoint-only(lg) {
-        column-count: 4;
+    h1.name {
+        text-align: left;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color:gold;
+        margin-bottom: 0;
     }
-
-    @include media-breakpoint-only(xl) {
-        column-count: 5;
+    h1 span.firstname {
+        color:navy;
     }
 }
 
-.card-columns .card {
-    margin-bottom: 0;
+
+ul.contact-info {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+ul.contact-info li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+}
+ul.contact-info li a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.custom-nav {
-    margin-right: 1em;
+i.platform-icon {
+    margin-right: 0.5rem;
 }
+
+
+
+
+
+div#previous-works {
+    background-color: navy;
+    color: white;
+    padding: 0.5rem;
+
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
+div#footer {
+    padding: 0.5rem;
+
+    a.footer-link {
+        text-decoration: none;
+        font-weight: bold;
+        color: navy;
+    }
+}
+
