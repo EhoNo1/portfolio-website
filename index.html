@@ -2,20 +2,29 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evan Overly's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  
+  <link rel="icon" type="image/x-icon" href="./public/favicon.ico">
+
   <!--Fontawesome icons-->
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   <div id="header">
     <h1 class="name"><span class="firstname">EVAN</span> OVERLY</h1>
     <ul class="contact-info">
@@ -41,19 +50,115 @@
 
 
 
-  <div id="previous-works">
-    <h2>Previous Works</h2>
+  <div id="skills" class="section">
+    <h2>I Make Ideas a Reality</h2>
 
-
+    <div class="two-column">
+      <ul>
+        <li>Full Stack Web Dev</li>
+        <li>RHEL</li>
+        <li>Active Directory</li>
+        <li>MongoDB</li>
+        <li>OracleDB</li>
+        <li>C#</li>
+      </ul>
+      <ul>
+        <li>NodeJS</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Unity3D</li>
+        <li>VRChat</li>
+      </ul>
+    </div>
   </div>
 
 
 
+  <div id="previous-works" class="section">
+    <h2>Previous Works</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col col-6">
+          <h3>Math Game Website</h3>
+          <p>A simple ExpressJS webservice that generates random math problems and displays using HandlebarsJS.</p>
+          <a class="btn btn-primary" href="https://github.com/EhoNo1/MathGameWebsite" role="button">Check out the code!</a>
+        </div>
+        <div class="col col-6">
+          <img src="./img/examples/MathGameExample.png">
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="row">
+        <div class="col col-6">
+          <h3>Nature-Dex</h3>
+          <p>Natural-Dex is a social media platform where users are encouraged to share photos of local plants and animals and colate those photos with scientific information.</p>
+          
+          <p>Built from-scratch during my capstone project with a team of 4 using ASP.NET and ReactJS</p>
+          <a class="btn btn-primary" href="" role="button">See the repo!</a>
+        </div>
+        <div class="col col-6">
+          <img src="./img/examples/NaturedexExample.png" alt="Screenshot of the NatureDex website">
+        </div>
+      </div>
+      <hr>
+      
+
+      <div class="row">
+        <div class="col-12">
+          <h3>Role Playing Game Framework</h3>
+          <p>My team and I have put together the foundations of a RolePlaying game in Unity Engine.</p>
+          
+          <p>We've made an attempt to make it as easy to pick up as possible, and there's even a companion documentation site.</p>
+          <a class="btn btn-primary" href="https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5" role="button">Check out the project!</a>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="col col-6">
+          <h3>Feast Folio</h3>
+          <p>Feast Folio is a new type of restaurant search and journaling site. Built during our team's ClientSide class, we've made a service that allows users to search for locally owned reastaurantes and create private journals and ratings about each one to track their experiences.</p>
+          <a class="btn btn-primary" href="https://github.com/EhoNo1/FeastFolio" role="button">Check out the project!</a>
+        </div>
+        <div class="col col-6">
+          <img src="./img/examples/FeastFolioExample.png" alt="Screenshot of the FeastFolio website.">
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="col col-12">
+          <h3>Linnen Tracking Project</h3>
+          <p>A java-based linnen order tracking system prototyped for a nearby commercial linnen washing plant.</p>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="col col-6">
+          <h3>Eagle Scout Project</h3>
+          <p>As an Eagle Scout, I was tasked with organizing and executing a community service project. I chose to built raised planter boxes for the school of a local church so that they have the opportunity to include horticultural activities in their curriculum.</p>
+          
+          <p>The project was funded by donations from the congregation and local suppliers, and unused funds were donated to the school to help them fund the garden.</p>
+          <a class="btn btn-primary" href="https://www.google.com/maps/@30.3922019,-87.0452968,3a,21y,109.16h,81.04t/data=!3m6!1e1!3m4!1szMp3TtGrWPGPkDdVdYJhrQ!2e0!7i16384!8i8192?coh=205409&entry=ttu" role="button">See on Google Maps!</a>
+        </div>
+        <div class="col col-6">
+          <img src="./img/examples/PlanterBoxExample.png" alt="Photograph of the planterboxes still in use years later. Photo Copyright Google Maps.">
+        </div>
+      </div>
+      <hr>
+
+    </div>
+  </div>
+
 
   <div id="footer">
     <p>Look ma, no ChatGPT!</p>
-    <p>Have a message, suggestion or just want to chat? <a class="footer-link" href="mailto:evanhoverly@gmail.com">Send me an email</a> and I'll be in touch!</p>
-    
+    <p>Have a message, suggestion or just want to chat? <a class="footer-link" href="mailto:evanhoverly@gmail.com">Send
+        me an email</a> and I'll be in touch!</p>
+
     <ul class="contact-info">
       <li><a href="mailto:EvanHOverly@gmail.com">EvanHOverly@gmail.com</a></li>
     </ul>

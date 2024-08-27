@@ -40,23 +40,52 @@ i.platform-icon {
 
 
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
+div.section {
+    padding: 0.5rem;
+}
 
-div#previous-works {
+div#skills {
     background-color: navy;
     color: white;
-    padding: 0.5rem;
+    
     width: 100%;
     height: auto;
-    display: flex;
-    h2 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    
+    .two-column {
+        width: 100%;
+        display: flex;
+        align-content: center;
+
+        ul {
+      
+            width: 50%;   
+        }
     }
     img {
-        margin-left: auto;
-        width: 50%;
-        height: 50%;
+        width: 50lvw;
+        height: 50lvh;
+    }
+}
+
+div#previous-works {
+    .container {
+        margin-left: 5lvw;
+        margin-right: 5lvw;
+    }
+
+    .col {
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;   
     }
 }
 
