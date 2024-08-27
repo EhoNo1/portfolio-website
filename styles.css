@@ -72,6 +72,23 @@ div#skills {
     }
 }
 
+div#previous-works {
+    .container {
+        margin-left: 5lvw;
+        margin-right: 5lvw;
+    }
+
+    .col {
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;   
+    }
+}
+
 div#footer {
     padding: 0.5rem;
 
