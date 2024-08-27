@@ -66,11 +66,9 @@ div#skills {
             width: 50%;   
         }
     }
-
     img {
-        margin-left: auto;
-        width: 50%;
-        height: 50%;
+        width: 50lvw;
+        height: 50lvh;
     }
 }
 
