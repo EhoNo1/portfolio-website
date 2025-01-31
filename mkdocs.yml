@@ -1,1 +1,17 @@
-site_name: My Docs
+site_name: Evan Overly
+site_description: Evan Overly's Portfolio
+site_author: Evan Overly
+local: en
+nav:
+  - 'index.md'
+  - 'Resume': 'EvanOverly-SinglePageResume.pdf'
+  - 'Projects':
+    - 'Projects\Academic Projects.md'
+theme:
+  name: bootstrap
+  custom_dir: overrides
+extra_css:
+  - css/styles.css
+plugins: []
+watch:
+  - overrides
