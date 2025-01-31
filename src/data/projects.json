@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Math Game Website",
+        "description": "A simple ExpressJS webservice that generates random math problems and displays using handlebars.",
+        "img":"./img/examples/MathGameExample.png",
+        "imgAlt":"",
+        "color": "#7A3B8A",
+        "link": "https://github.com/EhoNo1/MathGameWebsite",
+        "linkText": "Check out the code!",
+        "priority": 0
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "My personal portfolio site, made using ReactJS and Bootstrap.\n\nYou're looking at it right now!",
+        "img":"",
+        "imgAlt":"",
+        "color": "#000000",
+        "link": "",
+        "linkText": "(You're already here!)",
+        "priority": 1
+    },
+    {
+        "title": "Nature-Dex",
+        "description": "Natural-Dex is a social media platform where users are encouraged to share photos of local plants and animals and colate those photos with scientific information.\nBuilt from-scratch during my capstone project with a team of 4 using ASP.NET and ReactJS",
+        "img":"./img/examples/NaturedexExample.png",
+        "imgAlt":"Screenshot of the NatureDex website",
+        "color": "#206600",
+        "link": "",
+        "linkText": "See the repo!",
+        "priority": 2
+    },
+    {
+        "title": "Role Playing Game Framework",
+        "description": "My team and I have put together the foundations of a RolePlaying game in Unity Engine.\nWe've made an attempt to make it as easy to pick up as possible, and there's even a companion documentation site.",
+        "img":"https://place-hold.it/500x300",
+        "imgAlt":"",
+        "color": "#383838",
+        "link": "https://github.com/Group-5-Spring-CEN3032/Software-Engineering-Group-5",
+        "linkText": "Check out the project!",
+        "priority": 1
+    },
+    {
+        "title": "Feast Folio",
+        "description": "Feast Folio is a new type of restaurant search and journaling site. Built during our team's ClientSide class, we've made a service that allows users to search for locally owned reastaurantes and create private journals and ratings about each one to track their experiences.",
+        "img":"./img/examples/FeastFolioExample.png",
+        "imgAlt":"Screenshot of the FeastFolio website.",
+        "color": "#292929",
+        "link": "https://github.com/EhoNo1/FeastFolio",
+        "linkText": "Check out the project!",
+        "priority": 2
+    },
+    {
+        "title": "Linnen Tracking Project",
+        "description": "A java-based linnen order tracking system prototyped for a nearby linnen washing plant.",
+        "img":"",
+        "imgAlt":"",
+        "color": "#585858",
+        "link": "",
+        "linkText": "",
+        "priority": 0
+    },
+    {
+        "title": "Eagle Scout Project",
+        "description": "As an Eagle Scout, I was tasked with organizing and executing a community service project. I chose to built raised planter boxes for the school of a local church so that they have the opportunity to include horticultural activities in their curriculum.\nThe project was funded by donations from the congregation and local suppliers, and unused funds were donated to the school to help them fund the garden.",
+        "img":"./img/examples/PlanterBoxExample.png",
+        "imgAlt":"Photograph of the planterboxes still in use years later. Photo Copyright Google Maps.",
+        "color": "#1772C7",
+        "link": "https://www.google.com/maps/@30.3922019,-87.0452968,3a,21y,109.16h,81.04t/data=!3m6!1e1!3m4!1szMp3TtGrWPGPkDdVdYJhrQ!2e0!7i16384!8i8192?coh=205409&entry=ttu",
+        "linkText": "See on Google Maps!",
+        "priority": 3
+    }
+]
