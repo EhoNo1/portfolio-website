@@ -6,6 +6,7 @@ nav:
   - 'index.md'
   - 'Resume': 'EvanOverly-SinglePageResume.pdf'
   - 'Certifications.md'
+  - 'ProjectAdvising.md'
   - 'Projects':
     - 'Projects\Academic Projects.md'
 theme:
