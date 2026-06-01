@@ -1,0 +1,185 @@
+@font-face {
+    font-family: new-rodin-pro;
+    src: url(./fonts/FOT-NewRodinPro-DB.otf)
+}
+
+
+html {
+
+    
+    
+    font-family: new-rodin-pro;
+    font-weight: bold;
+    color: white;
+    text-shadow: -0.1rem -0.1rem 0rem black, 0rem -0.1rem 0rem black, 0.1rem -0.1rem 0rem black,
+                -0.1rem 0rem 0rem black,                        0.1rem 0rem 0rem black,
+                -0.1rem 0.1rem 0 black, 0rem 0.1rem 0 black, 0.1rem 0.1rem 0 black;
+    
+    
+}
+
+html.home {
+        background: linear-gradient(90deg,rgba(173, 218, 255) 1%, rgb(117, 200, 255) 50%, rgb(173, 218, 255) 100%);
+}
+html.projects {
+    background: linear-gradient(90deg,rgba(255, 173, 173) 1%, rgba(255, 120, 120, 1) 50%, rgba(255, 173, 173) 100%);
+}
+html.project-page {
+    background: linear-gradient(90deg,rgba(255, 229, 173) 1%, rgb(255, 201, 120) 50%, rgb(255, 229, 173) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+
+    :hover {
+        color:white;
+        background: #2DFDF3;
+        background: linear-gradient(0deg, rgba(45, 253, 243, 0) 25%, rgba(45, 253, 243, 1) 50%, rgba(45, 253, 243, 0) 75%);
+    }
+}
+
+#background {
+    position: fixed;
+    z-index: -4;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/widgets/crt-lines.png);
+    background-repeat: repeat-y;
+    background-size: 50% 3rem;
+}
+
+img {
+    display: block;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@keyframes reverse-spin {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+
+
+/* Spinners */
+.spinners {
+    position: fixed;
+    z-index: -5;
+
+    /* remember, you need to factor in the fact the origin of the object is the top right corner */
+    right: 33.3vw;
+    left: 66.6vw;
+    bottom: 87.5vh;
+    top: 12.5vh;
+
+    img {
+        position:inherit;
+        width: 75vh;
+        height: 75vh;
+    }
+}
+.spinner1 {
+    animation: reverse-spin 3s linear infinite;
+}
+.spinner2 {
+    animation: spin 5s linear infinite;
+}
+.spinner3 {
+    animation: reverse-spin 4s linear infinite;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+p {
+    font-size: 1rem;
+}
+
+
+
+
+#header-bar {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(./img/widgets/HeaderBar.png);
+    background-size: 100% 100%;
+    margin-bottom: 20vh;
+    
+    h1 {
+        width: 50%;
+        height: 100%;
+        text-align:left;
+        vertical-align: middle;
+    }
+
+    .subtitle {
+        width: 50%;
+        height: 50%;
+        margin-top: auto;
+        margin-left: 15%;
+        font-size: auto;
+    }
+}
+
+.text-body-full {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.text-body-part {
+
+}
+
+.divider {
+    width: 100%;
+    height: 2rem;
+}
+
+.main-section {
+    background-color: rgb(0,0,0,0.5);
+    margin: 0;
+}
+
+
+.button {
+    background-image: url(./img/button.png);
+}
+.button-list {
+    margin: 0;
+    margin-bottom: 1rem;
+    width:fit-content;
+    list-style: none;
+    font-size: 2rem;
+    
+    li {
+        background-image: url(./img/button.png);
+        background-size: 100% 100%;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+.button-list li:hover {
+    .text {
+        display: block;
+    }
+
+    
+}
